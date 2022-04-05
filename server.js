@@ -15,7 +15,7 @@ mongoose
     useNewUrlParser: true,
   })
   .then(() => console.log("DB CONNECTED"))
-  .catch((err) => console.log(`DB connection error-${error}`));
+  .catch((err) => console.log(`DB connection error-${err}`));
 
 //middlewares
 app.use(morgan("dev"));
